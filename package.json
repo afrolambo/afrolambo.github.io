@@ -1,0 +1,23 @@
+{
+  "name": "afrolambo.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afrolambo/afrolambo.github.io.git"
+  },
+  "author": "Stephen Galvan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afrolambo/afrolambo.github.io/issues"
+  },
+  "homepage": "https://github.com/afrolambo/afrolambo.github.io#index.html",
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "startbootstrap-freelancer": "^6.0.5"
+  }
+}

@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/afrolambo/afrolambo.github.io/issues"
   },
-  "homepage": "https://github.com/afrolambo/afrolambo.github.io#index.html",
+  "homepage": "https://github.com/afrolambo/afrolambo.github.io#readme",
   "dependencies": {
     "bootstrap": "^3.4.1",
     "startbootstrap-freelancer": "^6.0.5"

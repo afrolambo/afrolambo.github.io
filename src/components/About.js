@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStar } from '@fortawesome/free-solid-svg-icons'
 
 export default function About() {
     return (
@@ -9,13 +11,15 @@ export default function About() {
                 {/* <!-- Icon Divider--> */}
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon">
+                        <i class="fas fa-star"></i>
+                        <FontAwesomeIcon icon={faStar} />
+                    </div>
                     <div class="divider-custom-line"></div>
                 </div>
                 {/* <!-- About Section Content--> */}
                 <div class="row">
-                    <div class="col-lg-4 ml-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div class="col-lg-4 mr-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+                    <div class="text-center"><p class="lead">Full Stack Web Developer with a background in Education Technology and Performing Arts Management. Project-oriented, with analytical, and creative skills, with experience in the following technologies: React.JS, JavaScript, CSS, Sass, HTML5, Ruby, Ruby on Rails, Github, JWT Authentication, PostgreSQL. Skillful in strategic and tactical planning with a test and performance oriented approach to project solutions, critical thinking, and design. Proven high-value performance record in community initiatives and projects. Recognized for outstanding leadership, flexibility and customer service skills.</p></div>
                 </div>
                 {/* <!-- About Section Button--> */}
                 <div id="like_button_container" class="text-center mt-4">

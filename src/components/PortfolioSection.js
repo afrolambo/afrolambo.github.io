@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStar } from '@fortawesome/free-solid-svg-icons'
 
 export default function PortfolioSection() {
     return (
@@ -9,7 +11,10 @@ export default function PortfolioSection() {
                 {/* <!-- Icon Divider--> */}
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon">
+                        <i class="fas fa-star"></i>
+                        <FontAwesomeIcon icon={faStar} />
+                    </div>
                     <div class="divider-custom-line"></div>
                 </div>
                 {/* <!-- Portfolio Grid Items--> */}

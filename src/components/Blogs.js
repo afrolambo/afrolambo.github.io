@@ -17,18 +17,35 @@ export default function Blogs() {
                 </div>
                 <div class="divider-custom-line"></div>
             </div>
-            {/* <!-- About Section Content--> */}
-            <div class="row">
-                <div class="col-lg-4 ml-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                <div class="col-lg-4 mr-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
-            </div>
-            {/* <!-- About Section Button--> */}
-            <div id="like_button_container" class="text-center mt-4">
-                <a class="btn btn-xl btn-outline-light" href="">
-                    <i class="fas fa-download mr-2"></i>
-                    Learn more? 
-                </a>
-            </div>
+            <div class="row justify-content-center">
+                    {/* <!-- Portfolio Item 1--> */}
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="" />
+                        </div>
+                    </div>
+                    {/* <!-- Portfolio Item 2--> */}
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="" />
+                        </div>
+                    </div>
+                    {/* <!-- Portfolio Item 3--> */}
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="" />
+                        </div>
+                    </div>
+                </div>
         </div>
     </section>
     )
